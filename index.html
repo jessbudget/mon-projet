@@ -1233,6 +1233,34 @@
     </div>
   </section>
 
+ <section style="padding: 60px 20px; max-width: 600px; margin: 0 auto; text-align: center; font-family: sans-serif;">
+  <h2 style="color: #4a3a35; margin-bottom: 30px;">Une question ? Contactez-moi</h2>
+  
+  <form name="contact" method="POST" data-netlify="true" style="text-align: left; background: #fdfdfd; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+    <input type="hidden" name="form-name" value="contact" />
+
+    <div style="margin-bottom: 20px;">
+      <label style="display: block; margin-bottom: 5px; color: #4a3a35; font-weight: bold;">Votre nom</label>
+      <input type="text" name="name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;" />
+    </div>
+
+    <div style="margin-bottom: 20px;">
+      <label style="display: block; margin-bottom: 5px; color: #4a3a35; font-weight: bold;">Votre email</label>
+      <input type="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;" />
+    </div>
+
+    <div style="margin-bottom: 25px;">
+      <label style="display: block; margin-bottom: 5px; color: #4a3a35; font-weight: bold;">Message</label>
+      <textarea name="message" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; height: 120px;"></textarea>
+    </div>
+
+    <div style="text-align: center;">
+      <button type="submit" style="background-color: #4a3a35; color: white; border: none; padding: 15px 40px; cursor: pointer; border-radius: 30px; font-weight: bold; transition: 0.3s;">
+        Envoyer le message
+      </button>
+    </div>
+  </form>
+</section>
   <!-- FOOTER -->
   <footer>
     <div class="footer-logo">jess.budget</div>
@@ -1243,36 +1271,7 @@
       <a href="https://youtube.com/@jess.budget" target="_blank">YouTube</a>
     </div>
   </footer>
-  <section style="padding: 20px; font-family: sans-serif;">
-  <h2>Contactez-moi</h2>
-  
-  <form name="contact" method="POST" data-netlify="true">
-    
-    <input type="hidden" name="form-name" value="contact" />
 
-    <div style="margin-bottom: 10px;">
-      <label style="display: block;">Votre nom :</label>
-      <input type="text" name="name" required style="width: 100%; max-width: 300px;" />
-    </div>
-
-    <div style="margin-bottom: 10px;">
-      <label style="display: block;">Votre email :</label>
-      <input type="email" name="email" required style="width: 100%; max-width: 300px;" />
-    </div>
-
-    <div style="margin-bottom: 10px;">
-      <label style="display: block;">Message :</label>
-      <textarea name="message" required style="width: 100%; max-width: 300px; height: 100px;"></textarea>
-    </div>
-
-    <div>
-      <button type="submit" style="background-color: #00AD9F; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px;">
-        Envoyer
-      </button>
-    </div>
-
-  </form>
-</section>
 
   <script>
     // Reveal on scroll
