@@ -1243,6 +1243,36 @@
       <a href="https://youtube.com/@jess.budget" target="_blank">YouTube</a>
     </div>
   </footer>
+  <section style="padding: 20px; font-family: sans-serif;">
+  <h2>Contactez-moi</h2>
+  
+  <form name="contact" method="POST" data-netlify="true">
+    
+    <input type="hidden" name="form-name" value="contact" />
+
+    <div style="margin-bottom: 10px;">
+      <label style="display: block;">Votre nom :</label>
+      <input type="text" name="name" required style="width: 100%; max-width: 300px;" />
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <label style="display: block;">Votre email :</label>
+      <input type="email" name="email" required style="width: 100%; max-width: 300px;" />
+    </div>
+
+    <div style="margin-bottom: 10px;">
+      <label style="display: block;">Message :</label>
+      <textarea name="message" required style="width: 100%; max-width: 300px; height: 100px;"></textarea>
+    </div>
+
+    <div>
+      <button type="submit" style="background-color: #00AD9F; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px;">
+        Envoyer
+      </button>
+    </div>
+
+  </form>
+</section>
 
   <script>
     // Reveal on scroll
